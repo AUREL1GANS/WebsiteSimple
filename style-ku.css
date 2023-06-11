@@ -1,0 +1,184 @@
+/* style-ku.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-btn {
+  background-color: #fff;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+#rdp {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#rdp h2 {
+  color: #333;
+}
+
+.rdp-product {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.rdp-product img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.rdp-product h3 {
+  color: #333;
+}
+
+.rdp-product p {
+  color: #777;
+}
+
+.buy-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #555;
+}
+
+
+/* Heading section styles */
+#heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#heading img {
+  width: 200px;
+  height: auto;
+}
+
+/* Home section styles */
+#home {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#home h2 {
+  color: #333;
+}
+
+#home hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+#home p {
+  margin: 10px 0;
+}
+
+#home img {
+  margin: 10px;
+}
+
+/* Download section styles */
+#down {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#down a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+#down button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#down button:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
