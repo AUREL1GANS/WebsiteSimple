@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulir Kontak dengan reCAPTCHA</title>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+  <h1>Formulir Kontak</h1>
+
+  <form action="proses_kontak.php" method="POST">
+    
+    <!-- Nama -->
+    <label for="nama">Nama:</label>
+    <input type="text" name="nama" id="nama" required>
+    
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    
+    <!-- Pesan -->
+    <label for="pesan">Pesan:</label>
+    <textarea name="pesan" id="pesan" required></textarea>
+    
+    <!-- reCAPTCHA -->
+    <div class="g-recaptcha" data-sitekey="6LfvAo8mAAAAAPM1eGokH4wcTjxbXToP8TYluHLY"></div>
+    
+    <!-- Tombol Submit -->
+    <input type="submit" value="Kirim">
+  </form>
+
+</body>
+</html>
