@@ -1,8 +1,8 @@
 •Update 1.1.0
-<p>-Add process_contact.php
-<p>-Add contact.html
-<p>-Add capctha 
-<p>
-<p>•Update 1.1.1
-<p>-Add Netlify.toml to fix netlify error
+-Add process_contact.php
+-Add contact.html
+-Add capctha 
+
+•Update 1.1.1
+Add Netlify.toml to fix netlify error
 
