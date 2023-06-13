@@ -2,4 +2,27 @@
 hello my name is Rell I didn't study informatics so I don't understand coding I just tried it,
 This code is open to public and I'm still developing it to add to my knowledge of coding,
 I will still be updating the code maybe once a week. I didn't know this code had the theme of the Rdp Store,
-To see what I added to the code please have a look at the update logs.md
+To see what I added to the code please have a look at the update logs
+if you experience an error on netlify you can't build open terminal code on your computer or termux on your Cellphone
+
+For computer/pc run this command :
+
+-git status
+-git add netlify.toml
+-git commit -m "fix error"
+-git push
+
+for android/termux run this command :
+
+-pkg update && pkg upgrade
+-pkg install git
+-git clone (paste link your repostory in here)
+-cd (enter your repository name)
+-git init
+-git add netlify.toml
+-git commit -m "fix error"
+-git push origin
+
+
+
+
